@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script to switch the email address. Example:
-# ssh saned@srv "/etc/scanbuttond/switch-email.sh 2
+# ssh saned@srv "/etc/scanbuttond/switch-email.sh 2"
 
 EMAIL[1]="user1@example.org"
 EMAIL[2]="user2@example.org"
