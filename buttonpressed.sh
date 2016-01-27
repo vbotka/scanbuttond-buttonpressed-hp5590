@@ -38,7 +38,7 @@ function test {
 
 function scan {
     printf "buttonpressed.sh: Scan started\n" >> $LOG
-    scanimage -d $DEVICE -y 297mm -x 210mm  --format=$FORMAT --mode $MODE --resolution $RESOLUTION --source ADF --batch
+    scanimage -v -d $DEVICE -y 297mm -x 210mm  --format=$FORMAT --mode=$MODE --resolution=$RESOLUTION --source=ADF --batch >> $LOG
 }
 
 function pnm_to_jpg {
